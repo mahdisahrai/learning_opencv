@@ -1,0 +1,17 @@
+
+cv2.line(image, start_point, end_point, color(RGB), thickness) 
+
+cv2.arrowedLine(image, start_point, end_point, color(RGB), thickness) 
+
+cv2.rectangle(image, start_point, end_point, color(RGB), thickness) 
+
+cv2.rectangle(image, start_point, end_point, color, thickness)
+
+cv2.circle(image, center_coordinates, radius, color, thickness)
+
+cv2.putText(image, text, coordinate, font, fontScale, color, thickness, lineType)
+
+
+
+finding values for RGB Colors
+https://www.w3schools.com/colors/colors_rgb.asp
