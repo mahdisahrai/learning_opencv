@@ -21,7 +21,7 @@ while (True):
         cv2.imshow('roi', crop)
 
         hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
-        dst = cv2.calcBackProject([hsv], [0], hist, [0, 180], 1)
+        dst = cv2.calcBackProject([hsv], [0], hist, [0, 180], 1) # calcBackProject calculates the back project of the histogram
         ret, track = cv2.meanShift(dst, track, term_crit)  # for locating the maxima of a density function
 
 
