@@ -1,0 +1,7 @@
+you need to download the following files then copy them in project folder
+
+yolov4.weights
+
+yolov4.cfg
+
+coco.names  
