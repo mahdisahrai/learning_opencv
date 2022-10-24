@@ -33,7 +33,7 @@ confidences = []
 boxes = []
 for out in yolo_output:
     for detection in out:
-        scores = detection[5:] # it considers zero to five for coordinates and five to eight for Coco file classes
+        scores = detection[5:] # it considers zero to five for coordinates and five to eighty for Coco file classes
         class_id = np.argmax(scores) # It considers the maximum score that is close to the Coco file classes from the predictions
         confidence = scores[class_id]
 
@@ -56,7 +56,7 @@ for out in yolo_output:
 
 
 colors = np.random.uniform(0, 255, size=(len(classes), 3))
-indexes = cv2.dnn.NMSBoxes(boxes, confidences, 0.5, 0.4) # it returns maximum and  the best values for box
+indexes = cv2.dnn.NMSBoxes(boxes, confidences, 0.5, 0.4) # it returns maximum and the best values for box
 
 for i in range(len(boxes)):
     if i in indexes:
