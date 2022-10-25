@@ -1,0 +1,28 @@
+you need to download the following libraries 
+
+mediapipe: 0.8.5
+
+cvzone: 1.5.6	
+
+protobuf: 3.20.0
+
+-------------------------------------------------------------------------------
+if you faced with this error
+
+in findFaceMesh
+    self.mpDraw.draw_landmarks(img, faceLms, self.mpFaceMesh.FACEMESH_CONTOURS,
+AttributeError: module 'mediapipe.python.solutions.face_mesh' has no attribute 'FACEMESH_CONTOURS'
+
+check the class FaceMeshModule and then set this code:
+
+self.mpDraw.draw_landmarks(img, faceLms, self.mpFaceMesh.FACE_CONNECTIONS, self.drawSpec, self.drawSpec)
+
+
+
+
+
+
+
+
+
+
