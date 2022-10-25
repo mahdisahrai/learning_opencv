@@ -1,0 +1,3 @@
+you need to download the following library
+
+qrcode	7.3.1	
