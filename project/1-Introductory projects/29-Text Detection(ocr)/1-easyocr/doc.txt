@@ -1,0 +1,10 @@
+you need to download the following libraries
+
+pip install easyocr
+
+pip install torchvision==0.6
+
+
+
+
+
