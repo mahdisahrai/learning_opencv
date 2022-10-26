@@ -1,0 +1,9 @@
+you need to download the following library
+
+pytesseract: 0.3.9	
+
+
+adding another languages: https://github.com/tesseract-ocr/tessdata
+
+
+
