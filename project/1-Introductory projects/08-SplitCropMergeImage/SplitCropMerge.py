@@ -12,7 +12,7 @@ image1[155:206, 183:234] = crop  # moving the cropped part
 image1 = cv2.resize(image1, (512, 512))
 image2 = cv2.resize(image2, (512, 512))
 
-outcome1 = cv2.addWeighted(image1, .2, image2, .8, 0)
+outcome1 = cv2.addWeighted(image1, .2, image2, .8, 0) #addWeighted() helps in transition of the image to another.  in order to blend image
 outcome2 = cv2.add(image1, image2)
 
 cv2.imshow('crop', crop)
