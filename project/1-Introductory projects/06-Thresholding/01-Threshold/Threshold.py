@@ -4,6 +4,7 @@ import cv2 as cv
 
 img = cv2.imread('starry_night.jpg',0)
 
+# threshold allows us to separate the foreground (i.e., the objects that we are interested in) from the background of the image
 _, th1 = cv.threshold(img,150,200,cv.THRESH_BINARY)
 _, th2 = cv.threshold(img,150,200,cv.THRESH_BINARY_INV)
 _, th3 = cv.threshold(img,150,200,cv.THRESH_TRUNC)
