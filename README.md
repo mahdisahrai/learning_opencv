@@ -7,7 +7,7 @@
 
 
 the first page is based on Persian language
-[link youtube Maryam Sadeghi](https://github.com/mrymsadeghi)
+[link youtube Maryam Sadeghi](https://www.youtube.com/c/MaryamSadeghiPython/playlists)
 
 
 the second page is based on English
