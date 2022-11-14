@@ -35,8 +35,8 @@ width = img.shape[1]
 
 areavertices = [(0, height), (width / 2, height / 2), (width, height)]
 
-color = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
-canny = cv2.Canny(color, 100, 155)
+
+canny = cv2.Canny(img, 100, 155)
 cropped = SetRegion(canny, np.array([areavertices], np.int32))
 
 #rho is measured in pixels and theta is measured in radians 
