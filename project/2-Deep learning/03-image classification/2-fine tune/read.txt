@@ -1,0 +1,21 @@
+
+for downloading 
+!wget "http://file.tgz"
+
+for extracting
+!tar -xvzf /content/flower_photos.tgz
+
+for compressing folder to .tgz
+!tar -cvzf Car-Plate.tgz folder path
+
+
+for using custom dataset
+just replace your dataset.tgz into this code
+
+data_dir = tf.keras.utils.get_file(
+    'flower_photos',
+    'url.tgz',
+    untar=True)
+
+
+on colab
