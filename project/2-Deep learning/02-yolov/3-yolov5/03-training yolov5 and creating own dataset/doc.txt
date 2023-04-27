@@ -1,0 +1,27 @@
+path:
+
+
+yolov5: https://github.com/ultralytics/yolov5
+
+--------------------------------------------------------------------
+
+dataset: https://app.roboflow.com/ds/oH3RbdqILO?key=PCswy4gPv5
+
+
+!pip install roboflow
+
+from roboflow import Roboflow
+rf = Roboflow(api_key="OhaXBuHWLzwK4i1rCxMs")
+project = rf.workspace("datasetyolov5-2k886").project("face_project")
+dataset = project.version(1).download("yolov5")
+
+--------------------------------------------------------------------
+
+
+path yaml: /content/yolov5/data/data.yaml
+
+creating dataset: https://app.roboflow.com/
+
+
+
+run on colab

@@ -1,0 +1,11 @@
+# path
+train: /content/yolov5/data/images/train
+val: /content/yolov5/data/images/valid
+
+
+# number of classes
+nc: 2
+
+
+# class names
+names: ['mehdi', 'two']

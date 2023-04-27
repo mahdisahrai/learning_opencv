@@ -1,0 +1,12 @@
+*information*
+
+in this project is used yolov5 with defult dataset without training
+
+
+
+yolov5: https://github.com/ultralytics/yolov5
+
+classes information: https://github.com/ultralytics/yolov5/blob/master/data/coco.yaml
+
+
+run on colab

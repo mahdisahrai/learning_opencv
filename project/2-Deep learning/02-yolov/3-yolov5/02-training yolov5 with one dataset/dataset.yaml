@@ -1,0 +1,11 @@
+# path
+train: /content/yolov5/data/images/train
+val: /content/yolov5/data/images/val
+
+
+# number of classes
+nc: 4
+
+
+# class names
+names: ['inhibitory', 'danger', 'mandatory', 'other']

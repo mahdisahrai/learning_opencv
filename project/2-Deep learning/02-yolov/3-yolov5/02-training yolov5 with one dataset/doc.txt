@@ -1,0 +1,14 @@
+path:
+
+
+yolov5: https://github.com/ultralytics/yolov5
+
+dataset: https://www.kaggle.com/datasets/valentynsichkar/traffic-signs-dataset-in-yolo-format
+
+
+path yaml: /content/yolov5/data/dataset.yaml
+
+
+
+
+run on colab
