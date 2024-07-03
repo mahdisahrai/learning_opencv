@@ -11,7 +11,7 @@ combine = np.hstack((apple[:, :230], filter[:, 256:]))
 
 layer = combine.copy()
 
-
+#loop
 for i in range(4):
     layer = cv2.pyrDown(layer)
     cv2.imshow(str(i), layer)
